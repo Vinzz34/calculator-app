@@ -1,0 +1,19 @@
+body{
+    font-family: var(--ff-primary);
+    font-weight: var(--fw-bold);
+    background-color: var(--bg-main);
+    padding-top: 1.875rem;
+    padding-inline: 1.5rem;
+
+    @media screen and (min-width: 35em){
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+.main{
+    max-width: 540px;
+    flex: 1;
+}

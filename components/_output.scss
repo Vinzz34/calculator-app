@@ -1,0 +1,25 @@
+.output{
+    height: 5.5rem;
+    background-color: var(--bg-output);
+    border-radius: 0.5rem;
+    margin-bottom: 1.5rem;
+    color: var(--clr-output);
+    text-align: right;
+    padding-top: 1.25rem;
+    padding-right: 1.5rem;
+
+    @media screen and (min-width: 35em){
+       height: 8rem; 
+       padding-top: 2.25rem;
+       padding-right: 2rem;
+    }
+
+    &__previous-operand{
+        font-size: var(--fs-400);
+        margin-bottom: 0.5rem;
+    }
+
+    &__current-operand{
+        font-size: var(--fs-900);
+    }
+}

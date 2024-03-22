@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | Calculator app</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="main">
+      <div class="header">
+        <h1 class="header__heading">calc</h1>
+        <div class="header__theme">
+          <p class="header__theme__text">THEME</p>
+          <div class="header__theme__labels">
+              <label for="theme1">1</label>
+              <label for="theme2">2</label>
+              <label for="theme3">3</label>
+          </div>
+          <div class="header__theme__btns">
+            <input type="radio" name="theme" id="theme1" />
+            <input type="radio" name="theme" id="theme2" />
+            <input type="radio" name="theme" id="theme3" />
+          </div>
+        </div>
+      </div>
+      <div class="output">
+        <div class="output__previous-operand"></div>
+        <div class="output__current-operand"></div>
+      </div>
+      <div class="calculator">
+        <button class="calculator__nums">7</button>
+        <button class="calculator__nums">8</button>
+        <button class="calculator__nums">9</button>
+        <button class="calculator__del">DEL</button>
+        <button class="calculator__nums">4</button>
+        <button class="calculator__nums">5</button>
+        <button class="calculator__nums">6</button>
+        <button class="calculator__op">+</button>
+        <button class="calculator__nums">1</button>
+        <button class="calculator__nums">2</button>
+        <button class="calculator__nums">3</button>
+        <button class="calculator__op">-</button>
+        <button class="calculator__nums">.</button>
+        <button class="calculator__nums">0</button>
+        <button class="calculator__op">/</button>
+        <button class="calculator__op">x</button>
+        <button class="calculator__reset">RESET</button>
+        <button class="calculator__equals">=</button>
+      </div>
+    </div>
+    </main>
+
+    <script src="index.js"></script>
+  </body>
+</html>
